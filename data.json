@@ -1,0 +1,45 @@
+{
+  "attendances": [
+    {
+      "attendance_id": 63,
+      "attendee_email": "shifa-humaira@sws.com",
+      "attendee_name": "Shifa Humaira Syahrin Tanaz",
+      "check_in_time": null,
+      "check_out_time": null,
+      "employee_id": 1,
+      "is_guest": false,
+      "meeting_id": 25,
+      "notes": null,
+      "registered_by": 1,
+      "registration_method": null
+    },
+    {
+      "attendance_id": 64,
+      "attendee_email": "yulia-pipka@sws.com",
+      "attendee_name": "Yulia Pipka Ziliwu",
+      "check_in_time": null,
+      "check_out_time": null,
+      "employee_id": 2,
+      "is_guest": false,
+      "meeting_id": 25,
+      "notes": null,
+      "registered_by": 1,
+      "registration_method": null
+    }
+  ],
+  "author_employee_id": 1,
+  "created_by": 1,
+  "end_date_time": "23 Sep 2025 09:03:21",
+  "first_name": "Shifa Humaira",
+  "last_name": "Syahrin Tanaz",
+  "max_attendees": 10,
+  "meeting_id": 25,
+  "meeting_notes": "asd tesssss",
+  "meeting_purpose": "asdd",
+  "meeting_title": "tes judul meeting internal IS",
+  "room_id": 1,
+  "room_name": "Conference Room A",
+  "start_date_time": "23 Sep 2025 08:03:21",
+  "status_id": 1,
+  "status_name": "Scheduled"
+}
