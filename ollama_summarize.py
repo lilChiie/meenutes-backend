@@ -1,13 +1,13 @@
 import requests
 
 def summarize_text(text):
-    print("[Ollama] Memproses teks...")
+    print("[Ollama] Processing text...")
     try:
         response = requests.post(
             "http://localhost:11434/api/generate",
             json={
                 "model": "llama3.2",
-                "prompt": f"Buat ringkasan singkat dalam bentuk poin:\n{text}"
+                "prompt": f"Create a brief summary in bullet points:\n{text}"
             },
             stream=False
         )
@@ -15,4 +15,4 @@ def summarize_text(text):
         return result.strip()
     except Exception as e:
         print("Error summarizing:", e)
-        return "Gagal membuat ringkasan."
+        return "Failed to generate summary."

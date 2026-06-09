@@ -7,3 +7,5 @@ flask_bcrypt
 flask_jwt_extended
 Flask-Mail
 requests
+python-dotenv
+google-generativeai

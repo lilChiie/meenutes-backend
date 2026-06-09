@@ -1,7 +1,7 @@
 import urllib.parse
 
 DB_HOST = "LAPTOP-L8OG95QS"
-DB_NAME = "meeting_management_db"
+DB_NAME = "meenutes"
 
 params = urllib.parse.quote_plus(
     f"DRIVER={{ODBC Driver 17 for SQL Server}};"

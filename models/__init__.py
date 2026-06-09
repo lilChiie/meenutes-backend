@@ -1,8 +1,8 @@
-from .meeting_rooms import MeetingRoom
-from .meeting import Meeting
-from .employee import Employee
-from .user import MeetingUser
-from .attendance import MeetingAttendance
+from .event import Event
+from .event_division import EventDivision
+from .internal_divisions import InternalDivision
+from .user import User
+from .meeting_minutes import MeetingMinutes
 
 
-__all__ = ["MeetingRoom", "Meeting", "Employee", "MeetingUser", "MeetingAttendance"]
+__all__ = ["Event", "EventDivision", "InternalDivision", "User", "MeetingMinutes"]
